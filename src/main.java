@@ -6,7 +6,7 @@ import java.util.List;
 
 public class main {
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
 
         try {
             String content = readFileInString();
@@ -22,7 +22,7 @@ public class main {
 
     public static String readFileInString() throws IOException {
 
-        String fileLocation = "D:\\Documentos\\prueba_lumu\\proyect\\src\\data.txt";
+        String fileLocation = "src\\data.txt";
         BufferedReader reader = new BufferedReader(new FileReader(fileLocation));
         StringBuilder stringBuilder = new StringBuilder();
         String line = null;
