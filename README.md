@@ -1,6 +1,8 @@
 # count_words_2
 This project counts the number of occurrences, number of words, and characters in the text.<br/>
 
+###### This release includes ignoring uppercase to lowercase and displaying descending occurrences
+
 This program is developed in java, and using IDE Intellij Idea community if you want to export this project easily<br/>
 The source code is the folder /src/main.java The program read a file .txt located in(src\data.txt).<br/>
 If you want to change the text file location you can modify the folder path.<br/>
